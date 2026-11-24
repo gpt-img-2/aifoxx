@@ -1,8 +1,6 @@
 name: Daily AI news
 
 on:
-  schedule:
-    - cron: '0 6 * * *'   # 6am UTC daily
   workflow_dispatch:        # allow manual trigger from the Actions tab
 
 # main is guarded by the `main-protection-prod` ruleset (PR + 1 approval, no
